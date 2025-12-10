@@ -44,11 +44,11 @@ El trabajo incluye 4 retos diferenciados, cada uno con tareas de procesamiento, 
    ```
 2. Crea un entorno virtual:
    ```
-   python -m venv env
+   python -m venv .venv
    ```
 3. Activa el entorno virtual:
-   - En Linux/Mac: `source env/bin/activate`
-   - En Windows: `env\Scripts\activate`
+   - En Linux/Mac: `source .venv/bin/activate`
+   - En Windows: `.venv\Scripts\activate`
 4. Instala las dependencias:
    ```
    pip install -r requirements.txt
